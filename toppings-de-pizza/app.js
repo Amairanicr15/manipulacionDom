@@ -14,7 +14,7 @@
 
 //Seleccionar elementos en base a elementos que cumplen un selector css especifico   
 //.querySelector() nos permite seleccionar el primer criterio que cumpla 
-//.querySelectorAll() nos permite seleccionar todos los elementos que cumplan con ese criterio  
+
 
 // const primerToppinNaranja = document.querySelector('.topping.fondo-naranja');
 // console.log(typeof primerToppinNaranja);
@@ -25,5 +25,10 @@
 // console.log(primerToppinNaranja);
 
 //seleccionar el primer topping que no tenga el fondo marraon
-const primerToppingNoMarron = document.querySelector('ul li:not(.fondo-marron)');
-console.log(primerToppingNoMarron);
+// const primerToppingNoMarron = document.querySelector('ul li:not(.fondo-marron)');
+// console.log(primerToppingNoMarron);
+
+
+
+const toppingsNaranja = document.querySelectorAll('.topping.fondo-naraja');
+console.log(toppingsNaranja);
