@@ -30,5 +30,17 @@
 
 
 
-const toppingsNaranja = document.querySelectorAll('.topping.fondo-naraja');
-console.log(toppingsNaranja);
+// const toppingsNaranja = document.querySelectorAll('.topping.fondo-naraja');
+// console.log(toppingsNaranja);
+
+
+//
+//Es muy útil si quiero cambiar el estilo o el valor de una propiedad en css 
+const primerTopping = document.querySelector('.topping');
+console.log(primerTopping)
+
+primerTopping.style.backgroundColor = 'blue';
+primerTopping.style.color = '#6dff00';
+primerTopping.style.textTransform = 'uppercase';
+
+console.log(primerTopping.style);
