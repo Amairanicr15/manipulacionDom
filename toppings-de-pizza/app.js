@@ -88,3 +88,17 @@ console.log(enlaces[0].setAttribute('href', 'https://www.freecodecamp.org'));
 //Para obtenerlo se utiliza el getAttribute
 //Para eliminar se utiliza el remove:
 //console.log(enlaces[0].removeAttribute('href'));
+
+
+
+
+
+
+// ------------CLASES
+// const primerTopping = document.querySelector('.topping');
+// console.log(primerTopping.classList);
+
+//Agregar un clase a un elemento
+const primerTopping = document.querySelector('.topping');
+primerTopping.classList.add('texto-verde');
+console.log(primerTopping.classList);
