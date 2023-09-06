@@ -51,15 +51,24 @@ console.log(primerTopping.style);
 // const listaDeToppings = document.getElementById('lista-toppings');
 // console.log(listaDeToppings);
 
-const listaDeToppings = document.getElementById('lista-toppings');
+// const listaDeToppings = document.getElementById('lista-toppings');
 
-console.log('> innerText');
-console.log(listaDeToppings.innerText);
+// console.log('> innerText');
+// console.log(listaDeToppings.innerText);
 
 //aqui incluye los espacios que tiene en el archivo html 
-console.log('> textContent');
-console.log(listaDeToppings.textContent);
+// console.log('> textContent');
+// console.log(listaDeToppings.textContent);
 
 //va a retornar la estructura html interna de ese elemento como una cadena de caracteres 
-console.log('> innerHTML');
-console.log(listaDeToppings.innerHTML);
+// console.log('> innerHTML');
+// console.log(listaDeToppings.innerHTML);
+
+
+//También podemos modificarlo 
+// const titulo = document.getElementById('titulo');
+// console.log(titulo.innerText);
+
+
+const titulo = document.getElementById('titulo');
+titulo.innerText = 'Mis Toppings Favoritos';
