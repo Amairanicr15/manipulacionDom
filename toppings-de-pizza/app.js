@@ -36,14 +36,14 @@
 
 //
 //Es muy útil si quiero cambiar el estilo o el valor de una propiedad en css 
-const primerTopping = document.querySelector('.topping');
-console.log(primerTopping)
+// const primerTopping = document.querySelector('.topping');
+// console.log(primerTopping)
 
-primerTopping.style.backgroundColor = 'blue';
-primerTopping.style.color = '#6dff00';
-primerTopping.style.textTransform = 'uppercase';
+// primerTopping.style.backgroundColor = 'blue';
+// primerTopping.style.color = '#6dff00';
+// primerTopping.style.textTransform = 'uppercase';
 
-console.log(primerTopping.style);
+// console.log(primerTopping.style);
 
 
 //Siempre en cualquier operación relacionada con el DOM debemos tener ese elemento 
@@ -69,6 +69,22 @@ console.log(primerTopping.style);
 // const titulo = document.getElementById('titulo');
 // console.log(titulo.innerText);
 
-
+//PARA QUITAR EL EMOJI Y CAMBIAR EL NOMBRE DE TOPPINGS DE PIZZA 
 const titulo = document.getElementById('titulo');
+
+//si eliminamos esta linea se vera la que esta en el html
 titulo.innerText = 'Mis Toppings Favoritos';
+
+
+
+
+
+// ------------ATRIBUTOS
+//Como modificar los atributos de un elemento 
+const enlaces = document.getElementsByTagName('a');
+console.log(enlaces[0].setAttribute('href', 'https://www.freecodecamp.org'));
+
+//Para modificar se utiliza setAttribute
+//Para obtenerlo se utiliza el getAttribute
+//Para eliminar se utiliza el remove:
+//console.log(enlaces[0].removeAttribute('href'));
