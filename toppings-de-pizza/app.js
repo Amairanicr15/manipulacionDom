@@ -44,3 +44,22 @@ primerTopping.style.color = '#6dff00';
 primerTopping.style.textTransform = 'uppercase';
 
 console.log(primerTopping.style);
+
+
+//Siempre en cualquier operación relacionada con el DOM debemos tener ese elemento 
+
+// const listaDeToppings = document.getElementById('lista-toppings');
+// console.log(listaDeToppings);
+
+const listaDeToppings = document.getElementById('lista-toppings');
+
+console.log('> innerText');
+console.log(listaDeToppings.innerText);
+
+//aqui incluye los espacios que tiene en el archivo html 
+console.log('> textContent');
+console.log(listaDeToppings.textContent);
+
+//va a retornar la estructura html interna de ese elemento como una cadena de caracteres 
+console.log('> innerHTML');
+console.log(listaDeToppings.innerHTML);
