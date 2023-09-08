@@ -99,6 +99,17 @@ console.log(enlaces[0].setAttribute('href', 'https://www.freecodecamp.org'));
 // console.log(primerTopping.classList);
 
 //Agregar un clase a un elemento
+// const primerTopping = document.querySelector('.topping');
+// primerTopping.classList.add('texto-verde');
+// console.log(primerTopping.classList);
+
+
+
+
+
+// ------------Verificar si una clase existe 
+//Saber si un elemento posee una clase o no, eso se puede saber con el método contains - este nos permite verificar si una clase existe en esa lista de clases 
 const primerTopping = document.querySelector('.topping');
-primerTopping.classList.add('texto-verde');
+console.log(primerTopping.classList.contains('fondo-marron'));
+// false console.log(primerTopping.classList.contains('fondo-azul'));
 console.log(primerTopping.classList);
