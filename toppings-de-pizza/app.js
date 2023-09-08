@@ -121,6 +121,21 @@ console.log(enlaces[0].setAttribute('href', 'https://www.freecodecamp.org'));
 // ------------Eliminar una clase 
 //Eliminar una clase de un elemento 
 
-const primerTopping = document.querySelector('.topping');
-primerTopping.classList.remove('topping');
-console.log(primerTopping.classList);
+// const primerTopping = document.querySelector('.topping');
+// primerTopping.classList.remove('topping');
+// console.log(primerTopping.classList);
+
+
+
+
+
+// ------------Crear un elemento desde cero
+// Crear un elemento desde cero con JavaScript y luego agregar ese elemento al DOM de forma dinámica. Eso es muy útil cuando lo recibes información de un servidor o de una app 
+
+const listaDeToppings = document.getElementById('lista-toppings'); 
+
+const toppingNuevo = document.createElement('li');
+toppingNuevo.classList.add('topping', 'fondo-marron');
+toppingNuevo.innerText = 'Queso Extra';
+
+listaDeToppings.append(toppingNuevo);
