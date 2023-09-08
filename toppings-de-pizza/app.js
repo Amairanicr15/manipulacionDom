@@ -109,7 +109,18 @@ console.log(enlaces[0].setAttribute('href', 'https://www.freecodecamp.org'));
 
 // ------------Verificar si una clase existe 
 //Saber si un elemento posee una clase o no, eso se puede saber con el método contains - este nos permite verificar si una clase existe en esa lista de clases 
+// const primerTopping = document.querySelector('.topping');
+// console.log(primerTopping.classList.contains('fondo-marron'));
+//-- false console.log(primerTopping.classList.contains('fondo-azul'));
+// console.log(primerTopping.classList);
+
+
+
+
+
+// ------------Eliminar una clase 
+//Eliminar una clase de un elemento 
+
 const primerTopping = document.querySelector('.topping');
-console.log(primerTopping.classList.contains('fondo-marron'));
-// false console.log(primerTopping.classList.contains('fondo-azul'));
+primerTopping.classList.remove('topping');
 console.log(primerTopping.classList);
