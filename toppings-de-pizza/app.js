@@ -132,13 +132,62 @@ console.log(enlaces[0].setAttribute('href', 'https://www.freecodecamp.org'));
 // ------------Crear un elemento desde cero
 // Crear un elemento desde cero con JavaScript y luego agregar ese elemento al DOM de forma dinámica. Eso es muy útil cuando lo recibes información de un servidor o de una app 
 
-const listaDeToppings = document.getElementById('lista-toppings'); 
+// const listaDeToppings = document.getElementById('lista-toppings'); 
 
-const toppingNuevo = document.createElement('li');
-toppingNuevo.classList.add('topping', 'fondo-marron');
-toppingNuevo.innerText = 'Queso Extra';
+// const toppingNuevo = document.createElement('li');
+// toppingNuevo.classList.add('topping', 'fondo-marron');
+// toppingNuevo.innerText = 'Queso Extra';
 
-listaDeToppings.append(toppingNuevo);
+//listaDeToppings.appendChild(toppingNuevo);
+
+//listaDeToppings.append('Hola mundo');
 
 //con esto se elimina los elementos 
-listaDeToppings.remove();
+// toppingNuevo.remove();
+
+
+//------------------Recorrer el DOM
+// JavaScript nos permite aprovechar esta jerarquia con padres, hijos, los hermanos nos va a permitir recorrer el DOM con el código  en caso de necesitarlo.
+//Si quiero hacer una operación con su elemento o nodo padre, puedo selecionar una de dos opciones parentElement o parentNode 
+
+
+//Node es más amplio, incluye texto o comentarios
+//Element solo incluye los elementos HTML 
+const listaDeToppings = document.getElementById('lista-toppings');
+
+// console.log(listaDeToppings.parentElement);
+// console.log(listaDeToppings.parentNode);
+// console.log(listaDeToppings.parentElement.parentElement);
+//console.log(listaDeToppings.children);
+
+//primer hijo
+//console.log(listaDeToppings.firstChild);
+
+//acceso al primer hijo directo
+//console.log(listaDeToppings.children[0]);
+
+//este usa nodos, tendremos texto también 
+//console.log(listaDeToppings.lastChild);
+
+//para obtener elementos HTML 
+//console.log(listaDeToppings.firstElementChild);
+
+//equivalente para el proximo elemento 
+//console.log(listaDeToppings.lastElementChild);
+
+//que no incluya el texto ni los comentarios 
+//console.log(listaDeToppings.lastChild);
+
+//Obtener los hermanos de toppings - obtener el hermano anterior 
+console.log(listaDeToppings.previousElementSibling);
+
+//Obtener el proximo elemento 
+console.log(listaDeToppings.nextElementSibling);
+
+//para trabajar con nodos, si omitimos la palabra element 
+console.log(listaDeToppings.nextSibling);
+
+//también nos retorna texto
+console.log(listaDeToppings.previousSibling);
+
+//viajar a traves del DOM o recorrerlo con notación de punto, con estas propiedades: parentElement y parentNode, children para todos los hijos, firstChild y firstElementChild, lastChild y lastElementChild  y nextSibling y nextElementSibling y previousSibling y previousElementSibling para padres, hijos y hermanos 
