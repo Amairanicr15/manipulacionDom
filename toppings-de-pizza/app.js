@@ -139,3 +139,6 @@ toppingNuevo.classList.add('topping', 'fondo-marron');
 toppingNuevo.innerText = 'Queso Extra';
 
 listaDeToppings.append(toppingNuevo);
+
+//con esto se elimina los elementos 
+listaDeToppings.remove();
