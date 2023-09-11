@@ -213,3 +213,8 @@ console.log(listaDeToppings.previousSibling);
 // Event Handler -----> Función que se ejecuta cuando ocurre un evento. Se trabaja con eventos y también con librerías y frameworks más avanzados como por ejemplo React. Handler -- manejar: es una función que va a manejar un evento cuando ocurra pero no  podemos saber cuando ocurra ese evento, asi que va a estar ahí viendo si ocurre ese evento en el DOM en el navegador para estar lista y ejecutarse en el evento. Asociar un tipo de evento con una función para decirle al navegador que cuando ocurra un evento especifico en un elemento especifico vamos a llamar una función especifica. 
 
 // Event Listener  ------> Esta asociación que hay entre un evento especifico en un elemento y la función que lo va a manejar es lo que denominamos. Listen - escuchar. Escuchador de eventos. Es esa conexión que vamos a crear en nuestro código, tenemos que crearla explicitamente en JavaScript para asociar un evento  en un elemento con una función especifica que va a manejar ese evento en ese elemento. Cuando en ese elemento especifico ocurra un evento se va a llamar a esa función. Esta asociación la tenemos que crear nosotros mismos en el programa. Cuando creamos un evento listener estamos escuchando ese evento (estamos diciendole al elemento: hey! cuando ocurra este evento ya sabes lo que vas hacer, llamas a esta función y ejecutas el código) pero como el DOM o el navegador no sabe cuando va a ocurrir ese evento, tiene que estar pendiente a que ocurra. 
+
+
+
+//------- EVENTOS EN HTML
+// EventListener y como ejecutar codigo cuando ocurra un evento en algun elemento del DOM 
