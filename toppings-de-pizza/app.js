@@ -191,3 +191,17 @@ console.log(listaDeToppings.nextSibling);
 console.log(listaDeToppings.previousSibling);
 
 //viajar a traves del DOM o recorrerlo con notación de punto, con estas propiedades: parentElement y parentNode, children para todos los hijos, firstChild y firstElementChild, lastChild y lastElementChild  y nextSibling y nextElementSibling y previousSibling y previousElementSibling para padres, hijos y hermanos 
+
+
+
+
+
+//-------EVENTOS DEL DOM 
+//Evento: "algo" que ocurre en el sitio web como resultado de interacción con el usuario o por otra causa como cambios en el estado del dispositivo o de la ventana.
+// El más común es el evento del click, cuando estamos usando un mouse  para interactuar con los elementos si hacemos un click sobre algo (botón, formulario, imagen) cada uno de estos clicks se van a registrar como un evento en el navegador, y el navegador va a saber sobre cual de esos elementos se hizo el click y en caso de que ocurra el click que se hara en el código, como manejar ese evento. 
+//Otro evento es presionar una tecla, se puede lograr que ciertos elementos que nos interesan en el DOM sepan cuando ocurre uno de esos eventos, cual de esos elementos fue afectado y de reaccionar en base a ese evento y también cual de esas teclas fue presionada 
+// cambios tamaño de la ventana, navegador, rastrar, touch, 
+
+
+
+
