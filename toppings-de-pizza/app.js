@@ -217,4 +217,9 @@ console.log(listaDeToppings.previousSibling);
 
 
 //------- EVENTOS EN HTML
-// EventListener y como ejecutar codigo cuando ocurra un evento en algun elemento del DOM 
+// EventListener y como ejecutar codigo cuando ocurra un evento en algun elemento del DOM
+
+
+
+//addEventListener en el DOM 
+
