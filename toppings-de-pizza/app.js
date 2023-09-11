@@ -204,4 +204,12 @@ console.log(listaDeToppings.previousSibling);
 
 
 
+//----------CONCEPTOS IMPORTANTES
+//Cuando hablamos sobre eventos en el DOM y al momento de trabajarlo con JavaScript 
+// Elemeneto target (blanco) elemento que va a recibir el evento --> Si hacemos click en una página web sobre alguno de esos elementos (imagen, botón), algo que tenga una capacidad interactiva, ese elemento en el cual se va a generar ese evento, porque el usuario quizo interactuar con ese elemento asi que hay que reaccionar a esa interaccion y maneajarla adecuadamente. El elemento blanco va a decirle al navegador (hey! aquí ocurrio algo) ocurrio un evento, cómo lo manejo?, qué vamos hacer? 
 
+// Trigger - desencadenante ----> es la acción que va a desencadenar un evento, por ejemplo hacer click (esa acción de hacer click va a desencadenar el elemento de click  que luego se va a poder manejar a traves del DOM y JavaScript )
+
+// Event Handler -----> Función que se ejecuta cuando ocurre un evento. Se trabaja con eventos y también con librerías y frameworks más avanzados como por ejemplo React. Handler -- manejar: es una función que va a manejar un evento cuando ocurra pero no  podemos saber cuando ocurra ese evento, asi que va a estar ahí viendo si ocurre ese evento en el DOM en el navegador para estar lista y ejecutarse en el evento. Asociar un tipo de evento con una función para decirle al navegador que cuando ocurra un evento especifico en un elemento especifico vamos a llamar una función especifica. 
+
+// Event Listener  ------> Esta asociación que hay entre un evento especifico en un elemento y la función que lo va a manejar es lo que denominamos. Listen - escuchar. Escuchador de eventos. Es esa conexión que vamos a crear en nuestro código, tenemos que crearla explicitamente en JavaScript para asociar un evento  en un elemento con una función especifica que va a manejar ese evento en ese elemento. Cuando en ese elemento especifico ocurra un evento se va a llamar a esa función. Esta asociación la tenemos que crear nosotros mismos en el programa. Cuando creamos un evento listener estamos escuchando ese evento (estamos diciendole al elemento: hey! cuando ocurra este evento ya sabes lo que vas hacer, llamas a esta función y ejecutas el código) pero como el DOM o el navegador no sabe cuando va a ocurrir ese evento, tiene que estar pendiente a que ocurra. 
