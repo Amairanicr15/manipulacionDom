@@ -223,3 +223,7 @@ console.log(listaDeToppings.previousSibling);
 
 //addEventListener en el DOM 
 
+//-------PROYECTO COLORES ALEATORIOS 
+//Codigo extradecimal para un color para representar un color en css (hexadecimal o rgb)
+//hexadecimal: tiene 16 opciones para cada caracter y en total el color tiene 6 colores de 0 a 9 o de a a f 
+//rgb:
