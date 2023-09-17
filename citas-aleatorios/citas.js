@@ -1,7 +1,7 @@
 let citas = [
   {
     'autor': 'Albert Einstein',
-    'texto': 'No poseo talentos especiales. Solo soy apasionadamente cursioso.'
+    'texto': 'No poseo talentos especiales. Solo soy apasionadamente curioso.'
   },
   {
     'autor': 'Anónimo',
@@ -9,18 +9,34 @@ let citas = [
   },
   {
     'autor': 'Alan Kay',
-    'texto': 'La mejor forma de predecir el futuro es intervalo.'
+    'texto': 'La mejor forma de predecir el futuro es inventarlo.'
   },
   {
     'autor': 'Amelia Earhart',
-    'texto': 'Lo más díficil es tomar la decisión de actuar. El resto es...'
+    'texto': 'Lo más dificil es tomar la decisión de actuar. El resto es simplemente tenacidad.'
+  },
+  {
+    'autor': 'Aristotle',
+    'texto': 'La calidad no es un acto, es un hábito.'
+  },
+  {
+    'autor': 'Benjamin Franklin',
+    'texto': 'Dímelo y lo olvidaré. Enséñamelo y lo recordaré. Involúcrame y lo aprenderé.'
+  },
+  {
+    'autor': 'Charles R. Swindoll',
+    'texto': 'La vida es 10% lo que te ocurre y 90% cómo reaccionas.'
   },
   {
     'autor': 'Jane Goodall',
-    'texto': 'Lo que haces hace un diferencia. Y debes decidir...'
+    'texto': 'Lo que haces hace una diferencia. Y debes decidir si qué tipo de diferencia quieres hacer.'
+  },
+  {
+    'autor': 'John Muir',
+    'texto': 'El poder de la imaginación nos hace infinitos.'
   },
   {
     'autor': 'Mark Twain',
-    'texto': 'Los dos días más importantes de tu vida son el...'
+    'texto': 'Los dos días más importantes de tu vida son el día que naciste y el día que descubres por qué.'
   }
 ];
