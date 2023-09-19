@@ -4,7 +4,7 @@ let autorElem = document.getElementById('autor');
 
 function generarEnteroAleatorio(min, max) {
   //sin incluir max en los valores posibles 
-  return Math.floor(Math.floor() * (max - min) + min);
+  return Math.floor(Math.random() * (max - min) + min);
 }
 
 function cambiarCita() {
