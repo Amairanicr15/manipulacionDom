@@ -20,10 +20,12 @@ function agregarTarea() {
 
         //Iconos
         let completar = document.createElement('i');
-        completar.classList('bi', 'bi-check-circle-fill', 'icono-completar');
+        completar.classList.add('bi', 'bi-check-circle-fill', 'icono-completar');
+        completar.addEventListener('click', completarTarea);
 
         let eliminar = document.createElement('i');
         eliminar.classList.add('bi', 'bi-trash3-fill', 'icono-eliminar');
+        eliminar.addEventListener('click', eliminarTarea);
 
         iconos.append(completar, eliminar);
 
@@ -34,4 +36,21 @@ function agregarTarea() {
     } 
 }
 
+function completarTarea(e) {
+    let tarea = e.target.parentNode.parentNode;
+    tarea.classList.toggle('completada');
+}
+
+function eliminarTarea(e) {
+    let tarea = e.target.parentNode.parentNode;
+    tarea.remove();
+}
+
 boton.addEventListener('click', agregarTarea);
+
+//Esta función es para dar enter y se agregue la nueva tarea 
+input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        agregarTarea();
+    }
+});
