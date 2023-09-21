@@ -54,3 +54,6 @@ input.addEventListener('keydown', (e) => {
         agregarTarea();
     }
 });
+
+//Contabilizar el número de tareas ingresar 
+//Editar las tareas 
